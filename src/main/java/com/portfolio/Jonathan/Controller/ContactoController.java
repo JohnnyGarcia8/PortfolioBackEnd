@@ -10,7 +10,7 @@ import com.portfolio.Jonathan.Interface.IContactoInterface;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfoliojg-3a7ff.web.app")
 public class ContactoController {
     
     @Autowired

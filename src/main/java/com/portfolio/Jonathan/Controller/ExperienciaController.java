@@ -11,7 +11,7 @@ import com.portfolio.Jonathan.Interface.IExperienciaInterface;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfoliojg-3a7ff.web.app")
 public class ExperienciaController {
     
     @Autowired
