@@ -21,7 +21,7 @@ public class Estudios {
     @Column(name="institucion", length = 50)
     private String institucion;
     
-    @Column(name="titulo_insti", length = 50)
+    @Column(name="titulo_insti", length = 100)
     private String titulo_insti;
     
     @Column(name="inicio", length = 50)
@@ -30,10 +30,10 @@ public class Estudios {
     @Column(name="fin", length = 50)
     private String fin;
     
-    @Column(name="descripcion", length = 255)
+    @Column(name="descripcion", length = 500)
     private String descripcion;
     
-    @Column(name="certificados", length = 255)
+    @Column(name="certificados", length = 500)
     private String certificados;
 
     public Estudios() {

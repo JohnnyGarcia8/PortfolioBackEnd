@@ -31,22 +31,18 @@ public class Experiencia {
     @Column(name="fecha_fin", length = 50)
     private String fecha_fin;
     
-    @Column(name="descripcion", length = 255)
+    @Column(name="descripcion", length = 500)
     private String descripcion;
-    
-    @Column(name="trabajo_actual", length = 255)
-    private String trabajo_actual;
     
      public Experiencia() {
     }
 
-    public Experiencia(Long id, String empresa, String puesto, String fecha_inicio, String fecha_fin, String descripcion, String trabajo_actual) {
+    public Experiencia(Long id, String empresa, String puesto, String fecha_inicio, String fecha_fin, String descripcion) {
         this.id = id;
         this.empresa = empresa;
         this.puesto = puesto;
         this.fecha_inicio = fecha_inicio;
         this.fecha_fin = fecha_fin;
         this.descripcion = descripcion;
-        this.trabajo_actual = trabajo_actual;
-    }
+    }  
 }

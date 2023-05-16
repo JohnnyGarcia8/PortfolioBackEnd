@@ -21,19 +21,19 @@ public class PersonaPerfil {
     @Column(name="id")
     private Long id;
     
-    @Column(name="nombre_apellido", length = 50)
+    @Column(name="nombre_apellido", length = 100)
     private String nombre_apellido;
     
-    @Column(name="titulo_acad", length = 50)
+    @Column(name="titulo_acad", length = 100)
     private String titulo_acad;
     
-    @Column(name="descripcion", length = 255)
+    @Column(name="descripcion", length = 500)
     private String descripcion;
     
-    @Column(name="cv", length = 255)
+    @Column(name="cv", length = 500)
     private String cv;
     
-    @Column(name="foto_url", length = 255)
+    @Column(name="foto_url", length = 500)
     private String fotoUrl;
     
 

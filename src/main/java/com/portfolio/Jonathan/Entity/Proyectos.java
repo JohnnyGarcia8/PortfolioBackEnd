@@ -27,10 +27,10 @@ public class Proyectos {
     @Column(name="fecha_fin", length = 50)
     private String fecha_fin;
     
-    @Column(name="img_proyecto", length = 255)
+    @Column(name="img_proyecto", length = 500)
     private String imgProyecto;
     
-    @Column(name="descripcion", length = 255)
+    @Column(name="descripcion", length = 500)
     private String descripcion;
 
     public Proyectos() {
